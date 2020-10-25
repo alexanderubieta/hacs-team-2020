@@ -2,9 +2,13 @@ body {
   display: flex;
   justify-content: center;
   height: 200vh;
-  background-color: blue;
+  background-color: steelblue;
+  font-family: sans-serif;
   }
 
+button{
+  margin: 15px;
+}
 
 ul {
   list-style: none;
@@ -12,6 +16,7 @@ ul {
   overflow-y: auto;
   overflow-x: auto;
   width: 299px;
+  margin: 0 auto;
 }
 
 ul::-webkit-scrollbar {    
@@ -19,11 +24,36 @@ ul::-webkit-scrollbar {
 }
 
 li.item {
+  text-align: center;
   background: #eee;
   width: 300px;
-  padding-left: 10px;
-  padding-right: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 10px 0;
   height: 200px;
   display: table;
+}
+
+.fa-star:active{
+  color: goldenrod;
+}
+
+.fa-star:focus{
+  color: goldenrod;
+}
+
+.fa-heart:active{
+  color: red;
+}
+
+.fa-heart:focus{
+  color: red;
+}
+
+.fa-share:active{
+  color: steelblue;
+}
+
+.fa-share:focus{
+  color: steelblue;
 }
